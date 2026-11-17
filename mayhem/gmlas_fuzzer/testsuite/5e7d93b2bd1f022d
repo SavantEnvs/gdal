@@ -1,0 +1,64 @@
+FUZZER_FRIENDLY_ARCHIVE
+***NEWFILE***:test.gml
+<?xml version="1.0" encoding="utf-8" ?>
+<ogr:FeatureCollection
+     gml:id="aFeatureCollection"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ogr.maptools.org/ test.xsd"
+     xmlns:ogr="http://ogr.maptools.org/"
+     xmlns:gml="http://fake_gml32">
+  <gml:boundedBy><gml:Envelope srsDimension="3"><gml:lowerCorner>1 1 0</gml:lowerCorner><gml:upperCorner>3 3 0</gml:upperCorner></gml:Envelope></gml:boundedBy>
+  <ogr:featureMember>
+    <ogr:test gml:id="test.0">
+      <ogr:geometryProperty><gml:LineString gml:id="test.geom.0"><gml:posList>1 2 3 4 5 6 7 8 9 10 11 12</gml:posList></gml:LineString></ogr:geometryProperty>
+      <ogr:id>1</ogr:id>
+    </ogr:test>
+  </ogr:featureMember>
+</ogr:FeatureCollection>
+***NEWFILE***:test.xsd
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+    targetNamespace="http://ogr.maptools.org/"
+    xmlns:ogr="http://ogr.maptools.org/"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:gml="http://fake_gml32"
+    elementFormDefault="qualified"
+    version="1.0">
+<xs:import namespace="http://fake_gml32" schemaLocation="gmlas_fake_gml32.xsd"/>
+<xs:element name="FeatureCollection" type="ogr:FeatureCollectionType" substitutionGroup="gml:AbstractFeature"/>
+<xs:complexType name="FeatureCollectionType">
+  <xs:complexContent>
+    <xs:extension base="gml:AbstractFeatureType">
+      <xs:sequence minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="featureMember">
+          <xs:complexType>
+            <xs:complexContent>
+              <xs:extension base="gml:AbstractFeatureMemberType">
+                <xs:sequence>
+                  <xs:element ref="gml:AbstractFeature"/>
+                </xs:sequence>
+              </xs:extension>
+            </xs:complexContent>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:extension>
+  </xs:complexContent>
+</xs:complexType>
+<xs:element name="test" type="ogr:test_Type" substitutionGroup="gml:AbstractFeature"/>
+<xs:complexType name="test_Type">
+  <xs:complexContent>
+    <xs:extension base="gml:AbstractFeatureType">
+      <xs:sequence>
+        <xs:element name="geometryProperty" type="gml:GeometryPropertyType" nillable="true" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="id" nillable="true" minOccurs="0" maxOccurs="1">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+      </xs:sequence>
+    </xs:extension>
+  </xs:complexContent>
+</xs:complexType>
+</xs:schema>

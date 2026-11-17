@@ -1,0 +1,9 @@
+project: savantenvs/gdal
+target: osr_set_from_user_input_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/osr_set_from_user_input_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/osr_set_from_user_input_fuzzer
+    libfuzzer: true
+    timeout: 30

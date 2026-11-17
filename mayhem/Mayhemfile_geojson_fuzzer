@@ -1,0 +1,9 @@
+project: savantenvs/gdal
+target: geojson_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/geojson_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/geojson_fuzzer
+    libfuzzer: true
+    timeout: 30

@@ -1,0 +1,30 @@
+FUZZER_FRIENDLY_ARCHIVE
+***NEWFILE***:my.grd
+[general]
+creator=R package 'raster'
+created=2016-06-25 17:32:47
+[georeference]
+nrows=20
+ncols=20
+xmin=440720
+ymin=3750120
+xmax=441920
+ymax=3751320
+projection=+proj=utm +zone=11 +datum=NAD27 +units=m +no_defs +ellps=clrk66 +nadgrids=@conus,@alaska,@ntv2_0.gsb,@ntv1_can.dat
+[data]
+datatype=INT1U
+byteorder=little
+nbands=1
+bandorder=BIL
+categorical=FALSE
+minvalue=74
+maxvalue=255
+nodatavalue=NA
+[legend]
+legendtype=
+values=
+color=
+[description]
+layername=byte
+***NEWFILE***:my.gri
+k{„s„„Œ„„„k„k„„k{sœ”s„k{”s¥sŒk{{c„{„„„cœs„Œ„{sŒkŒs„{k„„ssksk”„{{s„„{s{s{ks”ksŒs„„œ„Œ„„sss{”{¥{„kk„œ{½­­””s”{k„s„œc{s„„ÎkÅ­”ŒŒ„c„{sŒ„„c„{„­{s”{”s”{Œ{ks„sksc{cµck{s„s{„s„„{{„csc{„sskŒŒcŒcs{k„ksks{„{k{„„„„„{c„{k”cs{Œ­{k{{{k{{{kŒ{{ssZk­kkkkc„{s­”c{{k{ck½­ksskcŒk­Œ”„„k{ccsc„cŒs”{c„{”ŒŒkŒZkskZc{sss{{”s”c„¥”œ{kkksŒcsccks„sZ{s½­ŒŒ¥s„ZcsZcckc„ck„„œµŒ­{„cs{Jsc{Œœ„¥ŒŒc­÷ÿÎ„kŒ{”„¥¥”Œ„{k{k{µµœ”œœœµ„”s„kkkkksck

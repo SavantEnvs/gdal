@@ -1,0 +1,9 @@
+project: savantenvs/gdal
+target: gmlas_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/gmlas_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/gmlas_fuzzer
+    libfuzzer: true
+    timeout: 30

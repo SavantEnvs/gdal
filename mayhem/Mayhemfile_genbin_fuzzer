@@ -1,0 +1,9 @@
+project: savantenvs/gdal
+target: genbin_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/genbin_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/genbin_fuzzer
+    libfuzzer: true
+    timeout: 30

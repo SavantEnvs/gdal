@@ -1,0 +1,8 @@
+FUZZER_FRIENDLY_ARCHIVE
+***NEWFILE***:cmd.txt
+vector
+pipeline
+--pipeline
+read /vsitar//vsimem/test.tar/in ! reproject --dst-crs EPSG:32630 ! write --of stream streamed_dataset
+***NEWFILE***:in
+{ "type": "Feature", "properties": null, "geometry": { "type": "Point", "coordinates": [0,0] } }

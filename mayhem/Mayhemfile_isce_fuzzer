@@ -1,0 +1,9 @@
+project: savantenvs/gdal
+target: isce_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/isce_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/isce_fuzzer
+    libfuzzer: true
+    timeout: 30

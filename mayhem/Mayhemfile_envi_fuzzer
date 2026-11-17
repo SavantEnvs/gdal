@@ -1,0 +1,9 @@
+project: savantenvs/gdal
+target: envi_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/envi_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/envi_fuzzer
+    libfuzzer: true
+    timeout: 30

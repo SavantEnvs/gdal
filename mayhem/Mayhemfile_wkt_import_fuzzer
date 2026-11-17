@@ -1,0 +1,9 @@
+project: savantenvs/gdal
+target: wkt_import_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/wkt_import_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/wkt_import_fuzzer
+    libfuzzer: true
+    timeout: 30

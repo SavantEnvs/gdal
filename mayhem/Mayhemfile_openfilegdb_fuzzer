@@ -1,0 +1,6 @@
+project: savantenvs/gdal
+target: openfilegdb_fuzzer
+cmds:
+  - cmd: /mayhem/openfilegdb_fuzzer
+    libfuzzer: true
+    timeout: 30

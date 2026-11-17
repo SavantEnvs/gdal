@@ -1,0 +1,238 @@
+FUZZER_FRIENDLY_ARCHIVE
+***NEWFILE***:./[Content_Types].xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">
+<Override PartName="/_rels/.rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/>
+<Override PartName="/docProps/core.xml" ContentType="application/vnd.openxmlformats-package.core-properties+xml"/>
+<Override PartName="/docProps/app.xml" ContentType="application/vnd.openxmlformats-officedocument.extended-properties+xml"/>
+<Override PartName="/xl/_rels/workbook.xml.rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/>
+<Override PartName="/xl/worksheets/sheet1.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/>
+<Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/>
+<Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/>
+<Override PartName="/xl/sharedStrings.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sharedStrings+xml"/>
+</Types>
+***NEWFILE***:./docProps/core.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<cp:revision>0</cp:revision>
+</cp:coreProperties>
+***NEWFILE***:./docProps/app.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties" xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes">
+<TotalTime>0</TotalTime>
+</Properties>
+***NEWFILE***:./xl/sharedStrings.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<sst xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" uniqueCount="30">
+<si>
+<t>val1</t>
+</si>
+<si>
+<t>val2</t>
+</si>
+<si>
+<t>val3</t>
+</si>
+<si>
+<t>val4</t>
+</si>
+<si>
+<t>val5</t>
+</si>
+<si>
+<t>val6</t>
+</si>
+<si>
+<t>val7</t>
+</si>
+<si>
+<t>val8</t>
+</si>
+<si>
+<t>val9</t>
+</si>
+<si>
+<t>val10</t>
+</si>
+<si>
+<t>val11</t>
+</si>
+<si>
+<t>val12</t>
+</si>
+<si>
+<t>val13</t>
+</si>
+<si>
+<t>val14</t>
+</si>
+<si>
+<t>val15</t>
+</si>
+<si>
+<t>val16</t>
+</si>
+<si>
+<t>val17</t>
+</si>
+<si>
+<t>val18</t>
+</si>
+<si>
+<t>val19</t>
+</si>
+<si>
+<t>val20</t>
+</si>
+<si>
+<t>val21</t>
+</si>
+<si>
+<t>val22</t>
+</si>
+<si>
+<t>val23</t>
+</si>
+<si>
+<t>val24</t>
+</si>
+<si>
+<t>val25</t>
+</si>
+<si>
+<t>val26</t>
+</si>
+<si>
+<t>val27</t>
+</si>
+<si>
+<t>val28</t>
+</si>
+<si>
+<t>val29</t>
+</si>
+<si>
+<t>val30</t>
+</si>
+</sst>
+***NEWFILE***:./xl/styles.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+<numFmts count="4">
+<numFmt formatCode="GENERAL" numFmtId="164"/>
+<numFmt formatCode="DD/MM/YY" numFmtId="165"/>
+<numFmt formatCode="DD/MM/YYYY\ HH:MM:SS" numFmtId="166"/>
+<numFmt formatCode="HH:MM:SS" numFmtId="167"/>
+<numFmt formatCode="DD/MM/YYYY\ HH:MM:SS.000" numFmtId="168"/>
+</numFmts>
+<fonts count="1">
+<font>
+<name val="Arial"/>
+<family val="2"/>
+<sz val="10"/>
+</font>
+</fonts>
+<fills count="1">
+<fill>
+<patternFill patternType="none"/>
+</fill>
+</fills>
+<borders count="1">
+<border diagonalDown="false" diagonalUp="false">
+<left/>
+<right/>
+<top/>
+<bottom/>
+<diagonal/>
+</border>
+</borders>
+<cellStyleXfs count="1">
+<xf numFmtId="164">
+</xf>
+</cellStyleXfs>
+<cellXfs count="5">
+<xf numFmtId="164" xfId="0"/>
+<xf numFmtId="165" xfId="0"/>
+<xf numFmtId="166" xfId="0"/>
+<xf numFmtId="167" xfId="0"/>
+<xf numFmtId="168" xfId="0"/>
+</cellXfs>
+<cellStyles count="1">
+<cellStyle builtinId="0" customBuiltin="false" name="Normal" xfId="0"/>
+</cellStyles>
+</styleSheet>
+***NEWFILE***:./xl/workbook.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
+<fileVersion appName="Calc"/>
+<sheets>
+<sheet name="foo" sheetId="1" state="visible" r:id="rId2"/>
+</sheets>
+<calcPr iterateCount="100" refMode="A1" iterate="false" iterateDelta="0.001"/>
+</workbook>
+***NEWFILE***:./xl/worksheets/sheet1.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
+<cols>
+<col min="1" max="1024" width="15"/>
+<col min="2" max="1024" width="15"/>
+<col min="3" max="1024" width="15"/>
+<col min="4" max="1024" width="15"/>
+<col min="5" max="1024" width="15"/>
+<col min="6" max="1024" width="15"/>
+<col min="7" max="1024" width="15"/>
+<col min="8" max="1024" width="15"/>
+<col min="9" max="1024" width="15"/>
+<col min="10" max="1024" width="15"/>
+<col min="11" max="1024" width="15"/>
+<col min="12" max="1024" width="15"/>
+<col min="13" max="1024" width="15"/>
+<col min="14" max="1024" width="15"/>
+<col min="15" max="1024" width="15"/>
+<col min="16" max="1024" width="15"/>
+<col min="17" max="1024" width="15"/>
+<col min="18" max="1024" width="15"/>
+<col min="19" max="1024" width="15"/>
+<col min="20" max="1024" width="15"/>
+<col min="21" max="1024" width="15"/>
+<col min="22" max="1024" width="15"/>
+<col min="23" max="1024" width="15"/>
+<col min="24" max="1024" width="15"/>
+<col min="25" max="1024" width="15"/>
+<col min="26" max="1024" width="15"/>
+<col min="27" max="1024" width="15"/>
+<col min="28" max="1024" width="15"/>
+<col min="29" max="1024" width="15"/>
+<col min="30" max="1024" width="15"/>
+</cols>
+<sheetData>
+<row r="1">
+<c r="A1" t="s">
+<v>0</v>
+</c>
+<c r="AB1" t="s">
+<v>27</v>
+</c>
+<c r="AC1" t="s">
+<v>28</v>
+</c>
+<c r="AD1" t="s">
+<v>29</v>
+</c>
+</row>
+</sheetData>
+</worksheet>
+***NEWFILE***:./xl/_rels/workbook.xml.rels
+<?xml version="1.0" encoding="UTF-8"?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/>
+<Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet1.xml"/>
+<Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/sharedStrings" Target="sharedStrings.xml"/>
+</Relationships>
+***NEWFILE***:./_rels/.rels
+<?xml version="1.0" encoding="UTF-8"?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/>
+<Relationship Id="rId2" Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="docProps/core.xml"/>
+<Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties" Target="docProps/app.xml"/>
+</Relationships>

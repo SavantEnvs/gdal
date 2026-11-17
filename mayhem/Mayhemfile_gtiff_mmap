@@ -1,0 +1,9 @@
+project: savantenvs/gdal
+target: gtiff_mmap
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/gtiff_mmap/testsuite
+cmds:
+  - cmd: /mayhem/gtiff_mmap
+    libfuzzer: true
+    timeout: 30

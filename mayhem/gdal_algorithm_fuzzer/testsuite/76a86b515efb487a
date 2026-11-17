@@ -1,0 +1,12 @@
+FUZZER_FRIENDLY_ARCHIVE
+***NEWFILE***:cmd.txt
+raster
+pipeline
+--pipeline
+read /vsitar//vsimem/test.tar/in ! reproject --dst-crs EPSG:32630 ! write --of stream streamed_dataset
+***NEWFILE***:in
+x,y,z
+0,0,0
+1,0,0
+0,1,0
+1,1,1

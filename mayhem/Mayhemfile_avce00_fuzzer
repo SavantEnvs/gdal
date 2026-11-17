@@ -1,0 +1,9 @@
+project: savantenvs/gdal
+target: avce00_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/avce00_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/avce00_fuzzer
+    libfuzzer: true
+    timeout: 30

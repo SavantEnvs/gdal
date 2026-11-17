@@ -1,0 +1,570 @@
+FUZZER_FRIENDLY_ARCHIVE
+***NEWFILE***:./RPC_foo.XML
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Dimap_Document>
+  <Metadata_Identification>
+    <METADATA_FORMAT version="2.0">DIMAP</METADATA_FORMAT>
+    <METADATA_PROFILE>PHR_SENSOR</METADATA_PROFILE>
+    <METADATA_SUBPROFILE>RPC</METADATA_SUBPROFILE>
+    <METADATA_LANGUAGE>en</METADATA_LANGUAGE>
+  </Metadata_Identification>
+  <Rational_Function_Model>
+    <Resource_Reference>
+      <RESOURCE_TITLE version="2.1">NITF</RESOURCE_TITLE>
+      <RESOURCE_ID>RPC00B</RESOURCE_ID>
+    </Resource_Reference>
+    <Global_RFM>
+      <Inverse_Model>
+        <SAMP_NUM_COEFF_1>SAMP_NUM_COEFF_1</SAMP_NUM_COEFF_1>
+        <SAMP_NUM_COEFF_2>SAMP_NUM_COEFF_2</SAMP_NUM_COEFF_2>
+        <SAMP_NUM_COEFF_3>SAMP_NUM_COEFF_3</SAMP_NUM_COEFF_3>
+        <SAMP_NUM_COEFF_4>SAMP_NUM_COEFF_4</SAMP_NUM_COEFF_4>
+        <SAMP_NUM_COEFF_5>SAMP_NUM_COEFF_5</SAMP_NUM_COEFF_5>
+        <SAMP_NUM_COEFF_6>SAMP_NUM_COEFF_6</SAMP_NUM_COEFF_6>
+        <SAMP_NUM_COEFF_7>SAMP_NUM_COEFF_7</SAMP_NUM_COEFF_7>
+        <SAMP_NUM_COEFF_8>SAMP_NUM_COEFF_8</SAMP_NUM_COEFF_8>
+        <SAMP_NUM_COEFF_9>SAMP_NUM_COEFF_9</SAMP_NUM_COEFF_9>
+        <SAMP_NUM_COEFF_10>SAMP_NUM_COEFF_10</SAMP_NUM_COEFF_10>
+        <SAMP_NUM_COEFF_11>SAMP_NUM_COEFF_11</SAMP_NUM_COEFF_11>
+        <SAMP_NUM_COEFF_12>SAMP_NUM_COEFF_12</SAMP_NUM_COEFF_12>
+        <SAMP_NUM_COEFF_13>SAMP_NUM_COEFF_13</SAMP_NUM_COEFF_13>
+        <SAMP_NUM_COEFF_14>SAMP_NUM_COEFF_14</SAMP_NUM_COEFF_14>
+        <SAMP_NUM_COEFF_15>SAMP_NUM_COEFF_15</SAMP_NUM_COEFF_15>
+        <SAMP_NUM_COEFF_16>SAMP_NUM_COEFF_16</SAMP_NUM_COEFF_16>
+        <SAMP_NUM_COEFF_17>SAMP_NUM_COEFF_17</SAMP_NUM_COEFF_17>
+        <SAMP_NUM_COEFF_18>SAMP_NUM_COEFF_18</SAMP_NUM_COEFF_18>
+        <SAMP_NUM_COEFF_19>SAMP_NUM_COEFF_19</SAMP_NUM_COEFF_19>
+        <SAMP_NUM_COEFF_20>SAMP_NUM_COEFF_20</SAMP_NUM_COEFF_20>
+        <SAMP_DEN_COEFF_1>SAMP_DEN_COEFF_1</SAMP_DEN_COEFF_1>
+        <SAMP_DEN_COEFF_2>SAMP_DEN_COEFF_2</SAMP_DEN_COEFF_2>
+        <SAMP_DEN_COEFF_3>SAMP_DEN_COEFF_3</SAMP_DEN_COEFF_3>
+        <SAMP_DEN_COEFF_4>SAMP_DEN_COEFF_4</SAMP_DEN_COEFF_4>
+        <SAMP_DEN_COEFF_5>SAMP_DEN_COEFF_5</SAMP_DEN_COEFF_5>
+        <SAMP_DEN_COEFF_6>SAMP_DEN_COEFF_6</SAMP_DEN_COEFF_6>
+        <SAMP_DEN_COEFF_7>SAMP_DEN_COEFF_7</SAMP_DEN_COEFF_7>
+        <SAMP_DEN_COEFF_8>SAMP_DEN_COEFF_8</SAMP_DEN_COEFF_8>
+        <SAMP_DEN_COEFF_9>SAMP_DEN_COEFF_9</SAMP_DEN_COEFF_9>
+        <SAMP_DEN_COEFF_10>SAMP_DEN_COEFF_10</SAMP_DEN_COEFF_10>
+        <SAMP_DEN_COEFF_11>SAMP_DEN_COEFF_11</SAMP_DEN_COEFF_11>
+        <SAMP_DEN_COEFF_12>SAMP_DEN_COEFF_12</SAMP_DEN_COEFF_12>
+        <SAMP_DEN_COEFF_13>SAMP_DEN_COEFF_13</SAMP_DEN_COEFF_13>
+        <SAMP_DEN_COEFF_14>SAMP_DEN_COEFF_14</SAMP_DEN_COEFF_14>
+        <SAMP_DEN_COEFF_15>SAMP_DEN_COEFF_15</SAMP_DEN_COEFF_15>
+        <SAMP_DEN_COEFF_16>SAMP_DEN_COEFF_16</SAMP_DEN_COEFF_16>
+        <SAMP_DEN_COEFF_17>SAMP_DEN_COEFF_17</SAMP_DEN_COEFF_17>
+        <SAMP_DEN_COEFF_18>SAMP_DEN_COEFF_18</SAMP_DEN_COEFF_18>
+        <SAMP_DEN_COEFF_19>SAMP_DEN_COEFF_19</SAMP_DEN_COEFF_19>
+        <SAMP_DEN_COEFF_20>SAMP_DEN_COEFF_20</SAMP_DEN_COEFF_20>
+        <LINE_NUM_COEFF_1>LINE_NUM_COEFF_1</LINE_NUM_COEFF_1>
+        <LINE_NUM_COEFF_2>LINE_NUM_COEFF_2</LINE_NUM_COEFF_2>
+        <LINE_NUM_COEFF_3>LINE_NUM_COEFF_3</LINE_NUM_COEFF_3>
+        <LINE_NUM_COEFF_4>LINE_NUM_COEFF_4</LINE_NUM_COEFF_4>
+        <LINE_NUM_COEFF_5>LINE_NUM_COEFF_5</LINE_NUM_COEFF_5>
+        <LINE_NUM_COEFF_6>LINE_NUM_COEFF_6</LINE_NUM_COEFF_6>
+        <LINE_NUM_COEFF_7>LINE_NUM_COEFF_7</LINE_NUM_COEFF_7>
+        <LINE_NUM_COEFF_8>LINE_NUM_COEFF_8</LINE_NUM_COEFF_8>
+        <LINE_NUM_COEFF_9>LINE_NUM_COEFF_9</LINE_NUM_COEFF_9>
+        <LINE_NUM_COEFF_10>LINE_NUM_COEFF_10</LINE_NUM_COEFF_10>
+        <LINE_NUM_COEFF_11>LINE_NUM_COEFF_11</LINE_NUM_COEFF_11>
+        <LINE_NUM_COEFF_12>LINE_NUM_COEFF_12</LINE_NUM_COEFF_12>
+        <LINE_NUM_COEFF_13>LINE_NUM_COEFF_13</LINE_NUM_COEFF_13>
+        <LINE_NUM_COEFF_14>LINE_NUM_COEFF_14</LINE_NUM_COEFF_14>
+        <LINE_NUM_COEFF_15>LINE_NUM_COEFF_15</LINE_NUM_COEFF_15>
+        <LINE_NUM_COEFF_16>LINE_NUM_COEFF_16</LINE_NUM_COEFF_16>
+        <LINE_NUM_COEFF_17>LINE_NUM_COEFF_17</LINE_NUM_COEFF_17>
+        <LINE_NUM_COEFF_18>LINE_NUM_COEFF_18</LINE_NUM_COEFF_18>
+        <LINE_NUM_COEFF_19>LINE_NUM_COEFF_19</LINE_NUM_COEFF_19>
+        <LINE_NUM_COEFF_20>LINE_NUM_COEFF_20</LINE_NUM_COEFF_20>
+        <LINE_DEN_COEFF_1>LINE_DEN_COEFF_1</LINE_DEN_COEFF_1>
+        <LINE_DEN_COEFF_2>LINE_DEN_COEFF_2</LINE_DEN_COEFF_2>
+        <LINE_DEN_COEFF_3>LINE_DEN_COEFF_3</LINE_DEN_COEFF_3>
+        <LINE_DEN_COEFF_4>LINE_DEN_COEFF_4</LINE_DEN_COEFF_4>
+        <LINE_DEN_COEFF_5>LINE_DEN_COEFF_5</LINE_DEN_COEFF_5>
+        <LINE_DEN_COEFF_6>LINE_DEN_COEFF_6</LINE_DEN_COEFF_6>
+        <LINE_DEN_COEFF_7>LINE_DEN_COEFF_7</LINE_DEN_COEFF_7>
+        <LINE_DEN_COEFF_8>LINE_DEN_COEFF_8</LINE_DEN_COEFF_8>
+        <LINE_DEN_COEFF_9>LINE_DEN_COEFF_9</LINE_DEN_COEFF_9>
+        <LINE_DEN_COEFF_10>LINE_DEN_COEFF_10</LINE_DEN_COEFF_10>
+        <LINE_DEN_COEFF_11>LINE_DEN_COEFF_11</LINE_DEN_COEFF_11>
+        <LINE_DEN_COEFF_12>LINE_DEN_COEFF_12</LINE_DEN_COEFF_12>
+        <LINE_DEN_COEFF_13>LINE_DEN_COEFF_13</LINE_DEN_COEFF_13>
+        <LINE_DEN_COEFF_14>LINE_DEN_COEFF_14</LINE_DEN_COEFF_14>
+        <LINE_DEN_COEFF_15>LINE_DEN_COEFF_15</LINE_DEN_COEFF_15>
+        <LINE_DEN_COEFF_16>LINE_DEN_COEFF_16</LINE_DEN_COEFF_16>
+        <LINE_DEN_COEFF_17>LINE_DEN_COEFF_17</LINE_DEN_COEFF_17>
+        <LINE_DEN_COEFF_18>LINE_DEN_COEFF_18</LINE_DEN_COEFF_18>
+        <LINE_DEN_COEFF_19>LINE_DEN_COEFF_19</LINE_DEN_COEFF_19>
+        <LINE_DEN_COEFF_20>LINE_DEN_COEFF_20</LINE_DEN_COEFF_20>
+        <ERR_BIAS_X>ERR_BIAS_X</ERR_BIAS_X>
+        <ERR_BIAS_Y>ERR_BIAS_Y</ERR_BIAS_Y>
+      </Inverse_Model>
+      <RFM_Validity>
+        <Inverse_Model_Validity_Domain>
+          <FIRST_LON>FIRST_LON</FIRST_LON>
+          <FIRST_LAT>FIRST_LAT</FIRST_LAT>
+          <LAST_LON>LAST_LON</LAST_LON>
+          <LAST_LAT>LAST_LAT</LAST_LAT>
+        </Inverse_Model_Validity_Domain>
+        <LONG_SCALE>LONG_SCALE</LONG_SCALE>
+        <LONG_OFF>LONG_OFF</LONG_OFF>
+        <LAT_SCALE>LAT_SCALE</LAT_SCALE>
+        <LAT_OFF>LAT_OFF</LAT_OFF>
+        <HEIGHT_SCALE>HEIGHT_SCALE</HEIGHT_SCALE>
+        <HEIGHT_OFF>HEIGHT_OFF</HEIGHT_OFF>
+        <SAMP_SCALE>SAMP_SCALE</SAMP_SCALE>
+        <SAMP_OFF>5</SAMP_OFF>
+        <LINE_SCALE>LINE_SCALE</LINE_SCALE>
+        <LINE_OFF>10</LINE_OFF>
+      </RFM_Validity>
+    </Global_RFM>
+  </Rational_Function_Model>
+</Dimap_Document>
+***NEWFILE***:./STRIP_foo_DIM.XML
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Dimap_Document>
+  <Metadata_Identification>
+    <METADATA_FORMAT version="2.0">DIMAP</METADATA_FORMAT>
+    <METADATA_PROFILE>PHR_SENSOR</METADATA_PROFILE>
+    <METADATA_SUBPROFILE>STRIP</METADATA_SUBPROFILE>
+    <METADATA_LANGUAGE>en</METADATA_LANGUAGE>
+  </Metadata_Identification>
+  <Acquisition_Configuration>
+    <Platform_Configuration>
+      <Coordinate_Reference_System>
+        <Temporal_CRS>
+          <CRS_TABLES version="0.0">IERS</CRS_TABLES>
+          <TEMPORAL_CRS_NAME>TAI</TEMPORAL_CRS_NAME>
+        </Temporal_CRS>
+      </Coordinate_Reference_System>
+      <Ephemeris_Configuration>
+        <NADIR_LAT unit="deg">NADIR_LAT</NADIR_LAT>
+        <NADIR_LON unit="deg">NADIR_LON</NADIR_LON>
+        <ACQUISITION_ORBIT_NUMBER>ACQUISITION_ORBIT_NUMBER</ACQUISITION_ORBIT_NUMBER>
+        <ACQUISITION_ORBIT_DIRECTION>DESCENDING</ACQUISITION_ORBIT_DIRECTION>
+        <Sensors_In_Use>
+          <DORIS>true</DORIS>
+        </Sensors_In_Use>
+      </Ephemeris_Configuration>
+    </Platform_Configuration>
+  </Acquisition_Configuration>
+</Dimap_Document>
+***NEWFILE***:./VOL_PHR.XML
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="./LIBRARY/VOL_STYL.XSL" type="text/xsl"?>
+<Dimap_Document>
+  <Metadata_Identification>
+    <METADATA_FORMAT version="2.0">DIMAP</METADATA_FORMAT>
+    <METADATA_PROFILE>VOLUME</METADATA_PROFILE>
+    <METADATA_SUBPROFILE>SINGLE_VOLUME</METADATA_SUBPROFILE>
+    <METADATA_LANGUAGE>en</METADATA_LANGUAGE>
+  </Metadata_Identification>
+  <Dataset_Identification>
+    <DATASET_NAME>PHR Volume Description</DATASET_NAME>
+    <DATASET_ID>DATASET_ID</DATASET_ID>
+  </Dataset_Identification>
+  <Dataset_Content>
+    <Dataset_Components>
+      <Component>
+        <COMPONENT_TYPE version="2.0">DIMAP</COMPONENT_TYPE>
+        <COMPONENT_PATH href="DIM_foo.XML"/>
+      </Component>
+    </Dataset_Components>
+  </Dataset_Content>
+</Dimap_Document>
+***NEWFILE***:./DIM_foo.XML
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="LIBRARY/STYLE.XSL" type="text/xsl"?><Dimap_Document>
+<!-- this is a fake and stripped Dimap2 dataset -->
+  <Metadata_Identification>
+      <METADATA_FORMAT version="2.0">DIMAP</METADATA_FORMAT>
+      <METADATA_PROFILE>PHR_SENSOR</METADATA_PROFILE>
+      <METADATA_SUBPROFILE>PRODUCT</METADATA_SUBPROFILE>
+      <METADATA_LANGUAGE>en</METADATA_LANGUAGE>
+  </Metadata_Identification>
+  <Dataset_Content>
+      <SURFACE_AREA unit="square km">1</SURFACE_AREA>
+      <CLOUD_COVERAGE unit="percent">2</CLOUD_COVERAGE>
+      <SNOW_COVERAGE unit="percent">3</SNOW_COVERAGE>
+      <Dataset_Components>
+         <Component>
+            <COMPONENT_TITLE>Strip Source</COMPONENT_TITLE>
+            <COMPONENT_CONTENT>Lineage Information</COMPONENT_CONTENT>
+            <COMPONENT_TYPE version="2.0">DIMAP</COMPONENT_TYPE>
+            <COMPONENT_PATH href="STRIP_foo_DIM.XML"/>
+         </Component>
+         <Component>
+            <COMPONENT_TITLE>RPC Model</COMPONENT_TITLE>
+            <COMPONENT_CONTENT>Geoposition Model</COMPONENT_CONTENT>
+            <COMPONENT_TYPE version="2.0">DIMAP</COMPONENT_TYPE>
+            <COMPONENT_PATH href="RPC_foo.XML"/>
+         </Component>
+      </Dataset_Components>
+  </Dataset_Content>
+  <Product_Information>
+      <Producer_Information>
+         <PRODUCER_NAME>PRODUCER_NAME</PRODUCER_NAME>
+         <PRODUCER_URL href="http://PRODUCER_URL"/>
+         <PRODUCER_CONTACT>PRODUCER_CONTACT</PRODUCER_CONTACT>
+         <PRODUCER_ADDRESS>PRODUCER_ADDRESS</PRODUCER_ADDRESS>
+      </Producer_Information>
+      <Delivery_Identification>
+         <PRODUCTION_DATE>PRODUCTION_DATE</PRODUCTION_DATE>
+         <JOB_ID>JOB_ID</JOB_ID>
+         <PRODUCT_CODE>PRODUCT_CODE</PRODUCT_CODE>
+         <DELIVERY_TYPE>DELIVERY_TYPE</DELIVERY_TYPE>
+         <Order_Identification>
+            <CUSTOMER_REFERENCE>CUSTOMER_REFERENCE</CUSTOMER_REFERENCE>
+            <INTERNAL_REFERENCE>INTERNAL_REFERENCE</INTERNAL_REFERENCE>
+            <COMMERCIAL_REFERENCE>COMMERCIAL_REFERENCE</COMMERCIAL_REFERENCE>
+            <COMMERCIAL_ITEM>COMMERCIAL_ITEM</COMMERCIAL_ITEM>
+         </Order_Identification>
+      </Delivery_Identification>
+  </Product_Information>
+  <Coordinate_Reference_System>
+      <Geodetic_CRS>
+         <CRS_TABLES version="6.3">EPSG</CRS_TABLES>
+         <GEODETIC_CRS_TYPE>GEOGRAPHIC2D</GEODETIC_CRS_TYPE>
+         <GEODETIC_CRS_NAME>WGS84</GEODETIC_CRS_NAME>
+         <GEODETIC_CRS_CODE>urn:ogc:def:crs:EPSG::4326</GEODETIC_CRS_CODE>
+      </Geodetic_CRS>
+      <Temporal_CRS>
+         <CRS_TABLES version="0.0">ITU</CRS_TABLES>
+         <TEMPORAL_CRS_NAME>UTC</TEMPORAL_CRS_NAME>
+      </Temporal_CRS>
+  </Coordinate_Reference_System>
+  <Geoposition>
+      <Raster_CRS>
+         <RASTER_GEOMETRY>SENSOR</RASTER_GEOMETRY>
+         <PIXEL_ORIENTATION>CENTER</PIXEL_ORIENTATION>
+         <PIXEL_CRS_TYPE>POINT</PIXEL_CRS_TYPE>
+         <PIXEL_ORIGIN>1</PIXEL_ORIGIN>
+      </Raster_CRS>
+      <Geoposition_Models>
+         <Rational_Function_Model>
+            <Component>
+               <COMPONENT_TITLE>RPC Model</COMPONENT_TITLE>
+               <COMPONENT_CONTENT>Geoposition Model</COMPONENT_CONTENT>
+               <COMPONENT_TYPE version="2.0">DIMAP</COMPONENT_TYPE>
+               <COMPONENT_PATH href="RPC_foo.XML"/>
+            </Component>
+         </Rational_Function_Model>
+      </Geoposition_Models>
+  </Geoposition>
+  <Processing_Information>
+      <Production_Facility>
+         <SOFTWARE version="VERSION">SOFTWARE</SOFTWARE>
+         <PROCESSING_CENTER>PROCESSING_CENTER</PROCESSING_CENTER>
+         <PROCESSING_PLACE/>
+      </Production_Facility>
+      <Product_Settings>
+         <PROCESSING_LEVEL>SENSOR</PROCESSING_LEVEL>
+         <SPECTRAL_PROCESSING>PMS</SPECTRAL_PROCESSING>
+         <Geometric_Settings>
+            <GEOMETRIC_PROCESSING>SENSOR</GEOMETRIC_PROCESSING>
+            <EPHEMERIS_USED>CORRECTED</EPHEMERIS_USED>
+            <ATTITUDES_USED>ACCURATE</ATTITUDES_USED>
+            <GROUND_SETTING>true</GROUND_SETTING>
+            <GROUND_DESC>R3D_ORTHO</GROUND_DESC>
+            <VERTICAL_SETTING>true</VERTICAL_SETTING>
+            <VERTICAL_DESC>REFERENCE3D</VERTICAL_DESC>
+         </Geometric_Settings>
+         <Radiometric_Settings>
+            <RADIOMETRIC_PROCESSING>BASIC</RADIOMETRIC_PROCESSING>
+            <INTER_DETECTOR_NORMALIZATION>false</INTER_DETECTOR_NORMALIZATION>
+            <DETECTORS_INTERPOLATION>true</DETECTORS_INTERPOLATION>
+            <STRAYLIGHT_CORRECTION>false</STRAYLIGHT_CORRECTION>
+            <VCTI_CORRECTION>false</VCTI_CORRECTION>
+            <INTER_ARRAY_RECONSTRUCTION>true</INTER_ARRAY_RECONSTRUCTION>
+            <RADIOMETRIC_STRETCH>false</RADIOMETRIC_STRETCH>
+            <OUT_OF_ORDER_THRESHOLD>0.5</OUT_OF_ORDER_THRESHOLD>
+         </Radiometric_Settings>
+         <Sampling_Settings>
+            <RESAMPLING_SPACING unit="m">0.5</RESAMPLING_SPACING>
+            <RESAMPLING_KERNEL>SPLINE</RESAMPLING_KERNEL>
+         </Sampling_Settings>
+         <MTF_Settings>
+            <PAN_RESTORATION>true</PAN_RESTORATION>
+            <MS_RESTORATION>false</MS_RESTORATION>
+         </MTF_Settings>
+      </Product_Settings>
+  </Processing_Information>
+  <Raster_Data>
+      <Data_Access>
+         <DATA_FILE_ORGANISATION>BAND_COMPOSITE</DATA_FILE_ORGANISATION>
+         <DATA_FILE_FORMAT>image/tiff</DATA_FILE_FORMAT>
+         <DATA_FILE_TILES>true</DATA_FILE_TILES>
+         <Data_Files>
+            <Data_File tile_R="1" tile_C="1">
+               <DATA_FILE_PATH href="IMG_foo_R1C1.TIF"/>
+            </Data_File>
+            <Data_File tile_R="2" tile_C="1">
+               <DATA_FILE_PATH href="IMG_foo_R2C1.TIF"/>
+            </Data_File>
+         </Data_Files>
+      </Data_Access>
+      <Raster_Dimensions>
+         <NROWS>30</NROWS>
+         <NCOLS>20</NCOLS>
+         <NBANDS>4</NBANDS>
+         <Tile_Set>
+            <NTILES>2</NTILES>
+            <Regular_Tiling>
+               <NTILES_SIZE nrows="20" ncols="20"/>
+               <NTILES_COUNT ntiles_R="2" ntiles_C="1"/>
+               <OVERLAP_ROW>0</OVERLAP_ROW>
+               <OVERLAP_COL>0</OVERLAP_COL>
+            </Regular_Tiling>
+         </Tile_Set>
+      </Raster_Dimensions>
+      <Raster_Encoding>
+         <DATA_TYPE>INTEGER</DATA_TYPE>
+         <NBITS>12</NBITS>
+         <SIGN>UNSIGNED</SIGN>
+         <COMPRESSION_TYPE>LOSSLESS</COMPRESSION_TYPE>
+      </Raster_Encoding>
+      <Raster_Display>
+         <Band_Display_Order>
+            <RED_CHANNEL>B2</RED_CHANNEL>
+            <GREEN_CHANNEL>B1</GREEN_CHANNEL>
+            <BLUE_CHANNEL>B0</BLUE_CHANNEL>
+            <ALPHA_CHANNEL>B3</ALPHA_CHANNEL>
+         </Band_Display_Order>
+         <Special_Value>
+            <SPECIAL_VALUE_TEXT>NODATA</SPECIAL_VALUE_TEXT>
+            <SPECIAL_VALUE_COUNT>0</SPECIAL_VALUE_COUNT>
+         </Special_Value>
+         <Special_Value>
+            <SPECIAL_VALUE_TEXT>SATURATED</SPECIAL_VALUE_TEXT>
+            <SPECIAL_VALUE_COUNT>4095</SPECIAL_VALUE_COUNT>
+         </Special_Value>
+      </Raster_Display>
+  </Raster_Data>
+  <Radiometric_Data>
+      <Dynamic_Range>
+         <ACQUISITION_RANGE>12</ACQUISITION_RANGE>
+         <PRODUCT_RANGE>12</PRODUCT_RANGE>
+      </Dynamic_Range>
+      <Radiometric_Calibration>
+         <Instrument_Calibration>
+            <Band_Measurement_List>
+               <Band_Spectral_Range>
+                  <BAND_ID>B0</BAND_ID>
+                  <CALIBRATION_DATE>CALIBRATION_DATE</CALIBRATION_DATE>
+                  <MEASURE_DESC>Spectral range value of raw radiometric Band</MEASURE_DESC>
+                  <MEASURE_UNIT>micrometers</MEASURE_UNIT>
+                  <MEASURE_UNCERTAINTY>Specification accuracy value</MEASURE_UNCERTAINTY>
+                  <MIN>MIN</MIN>
+                  <MAX>MAX</MAX>
+               </Band_Spectral_Range>
+               <Band_Spectral_Range>
+                  <BAND_ID>B1</BAND_ID>
+                  <CALIBRATION_DATE>CALIBRATION_DATE</CALIBRATION_DATE>
+                  <MEASURE_DESC>Spectral range value of raw radiometric Band</MEASURE_DESC>
+                  <MEASURE_UNIT>micrometers</MEASURE_UNIT>
+                  <MEASURE_UNCERTAINTY>Specification accuracy value</MEASURE_UNCERTAINTY>
+                  <MIN>MIN</MIN>
+                  <MAX>MAX</MAX>
+               </Band_Spectral_Range>
+               <Band_Spectral_Range>
+                  <BAND_ID>B2</BAND_ID>
+                  <CALIBRATION_DATE>CALIBRATION_DATE</CALIBRATION_DATE>
+                  <MEASURE_DESC>Spectral range value of raw radiometric Band</MEASURE_DESC>
+                  <MEASURE_UNIT>micrometers</MEASURE_UNIT>
+                  <MEASURE_UNCERTAINTY>Specification accuracy value</MEASURE_UNCERTAINTY>
+                  <MIN>MIN</MIN>
+                  <MAX>MAX</MAX>
+               </Band_Spectral_Range>
+               <Band_Spectral_Range>
+                  <BAND_ID>B3</BAND_ID>
+                  <CALIBRATION_DATE>CALIBRATION_DATE</CALIBRATION_DATE>
+                  <MEASURE_DESC>Spectral range value of raw radiometric Band</MEASURE_DESC>
+                  <MEASURE_UNIT>micrometers</MEASURE_UNIT>
+                  <MEASURE_UNCERTAINTY>Specification accuracy value</MEASURE_UNCERTAINTY>
+                  <MIN>MIN</MIN>
+                  <MAX>MAX</MAX>
+               </Band_Spectral_Range>
+               <Band_Radiance>
+                  <BAND_ID>B0</BAND_ID>
+                  <CALIBRATION_DATE>CALIBRATION_DATE</CALIBRATION_DATE>
+                  <MEASURE_DESC>Raw radiometric count (DN) to TOA Radiance (L). Formulae L=DN/GAIN+BIAS</MEASURE_DESC>
+                  <MEASURE_UNIT>watt/m2/steradians/micrometers</MEASURE_UNIT>
+                  <MEASURE_UNCERTAINTY>Specification accuracy value</MEASURE_UNCERTAINTY>
+                  <GAIN>GAIN</GAIN>
+                  <BIAS>BIAS</BIAS>
+               </Band_Radiance>
+               <Band_Radiance>
+                  <BAND_ID>B1</BAND_ID>
+                  <CALIBRATION_DATE>CALIBRATION_DATE</CALIBRATION_DATE>
+                  <MEASURE_DESC>Raw radiometric count (DN) to TOA Radiance (L). Formulae L=DN/GAIN+BIAS</MEASURE_DESC>
+                  <MEASURE_UNIT>watt/m2/steradians/micrometers</MEASURE_UNIT>
+                  <MEASURE_UNCERTAINTY>Specification accuracy value</MEASURE_UNCERTAINTY>
+                  <GAIN>GAIN</GAIN>
+                  <BIAS>BIAS</BIAS>
+               </Band_Radiance>
+               <Band_Radiance>
+                  <BAND_ID>B2</BAND_ID>
+                  <CALIBRATION_DATE>CALIBRATION_DATE</CALIBRATION_DATE>
+                  <MEASURE_DESC>Raw radiometric count (DN) to TOA Radiance (L). Formulae L=DN/GAIN+BIAS</MEASURE_DESC>
+                  <MEASURE_UNIT>watt/m2/steradians/micrometers</MEASURE_UNIT>
+                  <MEASURE_UNCERTAINTY>Specification accuracy value</MEASURE_UNCERTAINTY>
+                  <GAIN>GAIN</GAIN>
+                  <BIAS>BIAS</BIAS>
+               </Band_Radiance>
+               <Band_Radiance>
+                  <BAND_ID>B3</BAND_ID>
+                  <CALIBRATION_DATE>CALIBRATION_DATE</CALIBRATION_DATE>
+                  <MEASURE_DESC>Raw radiometric count (DN) to TOA Radiance (L). Formulae L=DN/GAIN+BIAS</MEASURE_DESC>
+                  <MEASURE_UNIT>watt/m2/steradians/micrometers</MEASURE_UNIT>
+                  <MEASURE_UNCERTAINTY>Specification accuracy value</MEASURE_UNCERTAINTY>
+                  <GAIN>GAIN</GAIN>
+                  <BIAS>BIAS</BIAS>
+               </Band_Radiance>
+               <Band_Solar_Irradiance>
+                  <BAND_ID>B0</BAND_ID>
+                  <CALIBRATION_DATE>CALIBRATION_DATE</CALIBRATION_DATE>
+                  <MEASURE_DESC>Solar irradiance value of raw radiometric Band</MEASURE_DESC>
+                  <MEASURE_UNIT>watt/m2/micron</MEASURE_UNIT>
+                  <MEASURE_UNCERTAINTY>Specification</MEASURE_UNCERTAINTY>
+                  <VALUE>VALUE</VALUE>
+               </Band_Solar_Irradiance>
+               <Band_Solar_Irradiance>
+                  <BAND_ID>B1</BAND_ID>
+                  <CALIBRATION_DATE>CALIBRATION_DATE</CALIBRATION_DATE>
+                  <MEASURE_DESC>Solar irradiance value of raw radiometric Band</MEASURE_DESC>
+                  <MEASURE_UNIT>watt/m2/micron</MEASURE_UNIT>
+                  <MEASURE_UNCERTAINTY>Specification</MEASURE_UNCERTAINTY>
+                  <VALUE>VALUE</VALUE>
+               </Band_Solar_Irradiance>
+               <Band_Solar_Irradiance>
+                  <BAND_ID>B2</BAND_ID>
+                  <CALIBRATION_DATE>CALIBRATION_DATE</CALIBRATION_DATE>
+                  <MEASURE_DESC>Solar irradiance value of raw radiometric Band</MEASURE_DESC>
+                  <MEASURE_UNIT>watt/m2/micron</MEASURE_UNIT>
+                  <MEASURE_UNCERTAINTY>Specification</MEASURE_UNCERTAINTY>
+                  <VALUE>VALUE</VALUE>
+               </Band_Solar_Irradiance>
+               <Band_Solar_Irradiance>
+                  <BAND_ID>B3</BAND_ID>
+                  <CALIBRATION_DATE>CALIBRATION_DATE</CALIBRATION_DATE>
+                  <MEASURE_DESC>Solar irradiance value of raw radiometric Band</MEASURE_DESC>
+                  <MEASURE_UNIT>watt/m2/micron</MEASURE_UNIT>
+                  <MEASURE_UNCERTAINTY>Specification</MEASURE_UNCERTAINTY>
+                  <VALUE>VALUE</VALUE>
+               </Band_Solar_Irradiance>
+            </Band_Measurement_List>
+         </Instrument_Calibration>
+      </Radiometric_Calibration>
+  </Radiometric_Data>
+  <Geometric_Data>
+      <Use_Area>
+          <Located_Geometric_Values>
+              <LOCATION_TYPE>BottomCenter</LOCATION_TYPE>
+              <COL>7503</COL>
+              <ROW>6542</ROW>
+              <TIME>2022-05-19T05:55:43.122330Z</TIME>
+              <SATELLITE_ALTITUDE>BOTTOM_SATELITTE_ALTITUDE</SATELLITE_ALTITUDE>
+              <Acquisition_Angles>
+                  <IMAGE_ORIENTATION unit="deg">BOTTOM_IMAGE_ORIENTATION</IMAGE_ORIENTATION>
+                  <AZIMUTH_ANGLE unit="deg">BOTTOM_AZIMUTH_ANGLE</AZIMUTH_ANGLE>
+                  <VIEWING_ANGLE_ACROSS_TRACK unit="deg">BOTTOM_VIEWING_ANGLE_ACROSS_TRACK</VIEWING_ANGLE_ACROSS_TRACK>
+                  <VIEWING_ANGLE_ALONG_TRACK unit="deg">BOTTOM_VIEWING_ANGLE_ALONG_TRACK</VIEWING_ANGLE_ALONG_TRACK>
+                  <VIEWING_ANGLE unit="deg">BOTTOM_VIEWING_ANGLE</VIEWING_ANGLE>
+                  <INCIDENCE_ANGLE_ALONG_TRACK unit="deg">BOTTOM_INCIDENCE_ANGLE_ALONG_TRACK</INCIDENCE_ANGLE_ALONG_TRACK>
+                  <INCIDENCE_ANGLE_ACROSS_TRACK unit="deg">BOTTOM_INCIDENCE_ANGLE_ACROSS_TRACK</INCIDENCE_ANGLE_ACROSS_TRACK>
+                  <INCIDENCE_ANGLE unit="deg">BOTTOM_INCIDENCE_ANGLE</INCIDENCE_ANGLE>
+              </Acquisition_Angles>
+              <Solar_Incidences>
+                  <SUN_AZIMUTH unit="deg">BOTTOM_SUN_AZIMUTH</SUN_AZIMUTH>
+                  <SUN_ELEVATION unit="deg">BOTTOM_SUN_ELEVATION</SUN_ELEVATION>
+              </Solar_Incidences>
+              <Ground_Sample_Distance>
+                  <GSD_ACROSS_TRACK unit="m">BOTTOM_GSD_ACROSS_TRACK</GSD_ACROSS_TRACK>
+                  <GSD_ALONG_TRACK unit="m">BOTTOM_GSD_ALONG_TRACK</GSD_ALONG_TRACK>
+              </Ground_Sample_Distance>
+          </Located_Geometric_Values>
+          <Located_Geometric_Values>
+              <LOCATION_TYPE>Center</LOCATION_TYPE>
+              <COL>7503</COL>
+              <ROW>6542</ROW>
+              <TIME>2022-05-19T05:55:43.122330Z</TIME>
+              <SATELLITE_ALTITUDE>CENTER_SATELLITE_ALTITUDE</SATELLITE_ALTITUDE>
+              <Acquisition_Angles>
+                  <IMAGE_ORIENTATION unit="deg">CENTER_IMAGE_ORIENTATION</IMAGE_ORIENTATION>
+                  <AZIMUTH_ANGLE unit="deg">CENTER_AZIMUTH_ANGLE</AZIMUTH_ANGLE>
+                  <VIEWING_ANGLE_ACROSS_TRACK unit="deg">CENTER_VIEWING_ANGLE_ACROSS_TRACK</VIEWING_ANGLE_ACROSS_TRACK>
+                  <VIEWING_ANGLE_ALONG_TRACK unit="deg">CENTER_VIEWING_ANGLE_ALONG_TRACK</VIEWING_ANGLE_ALONG_TRACK>
+                  <VIEWING_ANGLE unit="deg">CENTER_VIEWING_ANGLE</VIEWING_ANGLE>
+                  <INCIDENCE_ANGLE_ALONG_TRACK unit="deg">CENTER_INCIDENCE_ANGLE_ALONG_TRACK</INCIDENCE_ANGLE_ALONG_TRACK>
+                  <INCIDENCE_ANGLE_ACROSS_TRACK unit="deg">CENTER_INCIDENCE_ANGLE_ACROSS_TRACK</INCIDENCE_ANGLE_ACROSS_TRACK>
+                  <INCIDENCE_ANGLE unit="deg">CENTER_INCIDENCE_ANGLE</INCIDENCE_ANGLE>
+              </Acquisition_Angles>
+              <Solar_Incidences>
+                  <SUN_AZIMUTH unit="deg">CENTER_SUN_AZIMUTH</SUN_AZIMUTH>
+                  <SUN_ELEVATION unit="deg">CENTER_SUN_ELEVATION</SUN_ELEVATION>
+              </Solar_Incidences>
+              <Ground_Sample_Distance>
+                  <GSD_ACROSS_TRACK unit="m">CENTER_GSD_ACROSS_TRACK</GSD_ACROSS_TRACK>
+                  <GSD_ALONG_TRACK unit="m">CENTER_GSD_ALONG_TRACK</GSD_ALONG_TRACK>
+              </Ground_Sample_Distance>
+          </Located_Geometric_Values>
+      </Use_Area>
+  </Geometric_Data>
+  <Quality_Assessment>
+      <Imaging_Quality_Measurement>
+         <QUALITY_TABLES>PHR</QUALITY_TABLES>
+         <MEASURE_NAME>Cloud_Cotation (CLD)</MEASURE_NAME>
+         <MEASURE_TYPE>AUTOMATIC</MEASURE_TYPE>
+         <Quality_Mask>
+            <Component>
+               <COMPONENT_TITLE>Cloud_Cotation Mask</COMPONENT_TITLE>
+               <COMPONENT_CONTENT>GML MASK</COMPONENT_CONTENT>
+               <COMPONENT_TYPE>ENCAPSULATED</COMPONENT_TYPE>
+               <COMPONENT_PATH href="CLD_foo_MSK.GML"/>
+            </Component>
+         </Quality_Mask>
+      </Imaging_Quality_Measurement>
+  </Quality_Assessment>
+  <Dataset_Sources>
+      <Source_Identification>
+         <SOURCE_ID>SOURCE_ID</SOURCE_ID>
+         <SOURCE_TYPE>Strip_Source</SOURCE_TYPE>
+         <SOURCE_DESCRIPTION>PHR1A Data Strip</SOURCE_DESCRIPTION>
+         <Strip_Source>
+            <MISSION>PHR</MISSION>
+            <MISSION_INDEX>1A</MISSION_INDEX>
+            <INSTRUMENT>PHR</INSTRUMENT>
+            <INSTRUMENT_INDEX>1A</INSTRUMENT_INDEX>
+            <IMAGING_DATE>2016-06-17</IMAGING_DATE>
+            <IMAGING_TIME>12:34:56</IMAGING_TIME>
+            <BAND_MODE>PX</BAND_MODE>
+         </Strip_Source>
+         <Component>
+            <COMPONENT_TITLE>Strip Source</COMPONENT_TITLE>
+            <COMPONENT_CONTENT>Lineage Information</COMPONENT_CONTENT>
+            <COMPONENT_TYPE version="2.0">DIMAP</COMPONENT_TYPE>
+            <COMPONENT_PATH href="STRIP_foo_DIM.XML"/>
+         </Component>
+      </Source_Identification>
+  </Dataset_Sources>
+</Dimap_Document>
+***NEWFILE***:./IMG_foo_R2C1.TIF
+II* ¿   GDAL_STRUCTURAL_METADATA_SIZE=000140 bytes
+LAYOUT=IFDS_BEFORE_DATA
+BLOCK_ORDER=ROW_MAJOR
+BLOCK_LEADER=SIZE_AS_UINT4
+BLOCK_TRAILER=LAST_4_BYTES_REPEATED
+KNOWN_INCOMPATIBLE_EDITION=NO
+               
+       ™                              =       B        C        D    ª	  E    j  R       S    ≤  É    ∫  ÇÑ    “  Øá       ±á    B  ú∆ \   ^  >                N@      N@                                    @ÊA    ÃûLA                      ±á   ±á     é#    Wh   )#NAD27 / UTM zone 11N|NAD27|       ø      ø      &¿      @                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ˛             
+                                            =       B        C        D    ¯  E    ª   R       S      ú∆ \                       ø      ø      ¿       @                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ª   Ä! HC‹ˆsÑBa∏aÆ{ÅƒbI»¢påFcQ∏‰v=êHcÒ|í'Ç¬°¶¥dµëLfS9§â[7V•'IHTñ%1–Lp®åÆkG§Rc˘Ï¢
+®B!ÎZ¢÷çJ¨Vf≤Í‚2U+∞C)“yÖjÕg¥ZmVªe∂›o∏\nW;•÷Ìwº^oWªÂˆ˝¿`pX<&áƒbqXºf7è»drY<¶W-óÃfsYºÊw=ü–htZ9îZ9îj  Ä‡F≥‹ˆÑÑ!p≥ú&ÑFDQê¯¢káE‚±h˜9ß$Iƒ§ï( îJeRπd∂]/î»#1ÿ4ô) RŒT≤í2/èËF8tz7°ò‰i…Ö6ùOîL°3⁄,yãœjPàÙj+ êEÏ0:ÖñÕ)õUh¯dn= ∑√+∞9⁄≈≠[a6{Â>KáU+ˆ$zmù)h–òΩzKè_rRıÓUz≠Ãfsiµ÷MsÅC´hJ]&„ç≥µLËæO]+bÏXπ©¥˜§⁄≠êΩº?s	≈¬3Zsûøå √ÕdŸÈ,z{†5ËÏp)öIZˆV¥ùo]ƒ—\†ﬁDV◊§P˙¥>+sÓ˜≤[hï&{I∏A±—Œ§2ÓÖΩÆÉ⁄á>P,¡L¡êl¬å%	¬ê¨-√Ã5√êÏ=ƒEƒë,M≈LU≈ël]∆åe∆ë¨m««***NEWFILE***:./IMG_foo_R1C1.TIF
+II* ¿   GDAL_STRUCTURAL_METADATA_SIZE=000140 bytes
+LAYOUT=IFDS_BEFORE_DATA
+BLOCK_ORDER=ROW_MAJOR
+BLOCK_LEADER=SIZE_AS_UINT4
+BLOCK_TRAILER=LAST_4_BYTES_REPEATED
+KNOWN_INCOMPATIBLE_EDITION=NO
+                      ™                              =       B        C        D    ≈	  E    R  R       S    ≤  É    ∫  ÇÑ    “  Øá       ±á    B  ú∆ \   ^  >                N@      N@                                    @ÊA    ÃûLA                      ±á   ±á     é#    Wh   )#NAD27 / UTM zone 11N|NAD27|       ø      ø      "@      @                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ˛             
+                                            =       B        C        D    ¯  E    ≈   R       S      ú∆ \                       ø      ø      @       @                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ≈   Ä! P8Œs5¬MpsôÓ{ÇC!Q3X-åFcQ∏‰v=êGï≤5j2LåÇD`C¥«=…∞…÷m7úH`ì$N]/áÃ¢súÊçG§G¢e™ajM-L!ì•V≠UÇRkU∫3ﬁº˜gXY‘8|KgR…—ìd>πo∏\nW;•÷Ìwº^oWªÂˆ˝¿`pX<&áƒbqXºf7è»drY<¶W-óÃfsYºÊw=ü–htZ=&óMß‘juZΩdﬁΩdﬁR  Ä‡F≥‹ˆÑÑ!p≥ú&ÑFDQê¯¢káE‚±h˜9ß$Iƒ§ï( îJeRπd∂]/î»#1ÿ4ô) RŒT≤í2/èËF8tz7°ò‰i…Ö6ùOîL°3⁄,yãœjPàÙj+ êEÏ0:ÖñÕ)õUh¯dn= ∑√+∞9⁄≈≠[a6{Â>KáU+ˆ$zmù)h–òΩzKè_rRıÓUz≠Ãfsiµ÷MsÅC´hJ]&„ç≥µLËæO]+bÏXπ©¥˜§⁄≠êΩº?s	≈¬3Zsûøå √ÕdŸÈ,z{†5ËÏp)öIZˆV¥ùo]ƒ—\†ﬁDV◊§P˙¥>+sÓ˜≤[hï&{I∏A±—Œ§2ÓÖΩÆÉ⁄á>Löé‡:Ítã¶œ√ƒÇßÆÙö<ö≤P´†ÁºÔxÊ-D“.Õ1±+ﬂ´ä≤/≠¢LÎ-i¸°"Ï≥.ÃøÎ.˚+4û≈ã‚“ä∆H*ì!qA	".a(†¡PB
+⁄¢R
+Œû´(îC.èÚ-∆‹<9¬¨Í (D¨≥1)≥!DœÎx˙ΩHdé°«/$?∏ìZÀGÔ°ƒ¥sÍÖ–”ºw4…s¬çœ ÇñÌ∞ã2ˆ…"%SÇS÷°9»ì Ñ±4§“*{4{’áπˇWüÌYúô†P‰¶ì!ÃL⁄ì7∞‡»’*m)J)sróc§T¢3<®D„gÀ≤Mÿ6≠≠k€Õµm€ñÌΩo‹≈q‹ó-Õs›M’u›óm›wﬁç™ÄÄç™ÄÄ

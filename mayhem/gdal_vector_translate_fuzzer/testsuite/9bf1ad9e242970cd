@@ -1,0 +1,21 @@
+FUZZER_FRIENDLY_ARCHIVE
+***NEWFILE***:cmd.txt
+non_significant_output_name
+-f
+Memory
+-s_srs
+EPSG:4326
+-t_srs
+EPSG:32631
+first
+second
+***NEWFILE***:in/first.csv
+int_field,float_field,string_field,WKT
+1,2.34,\"foo\",\"POINT(1 2)\"
+***NEWFILE***:in/first.csvt
+Integer,Real,String,WKT
+***NEWFILE***:in/second.csv
+int_field,float_field,string_field,WKT
+1,2.34,\"foo\",\"POINT(1 2)\"
+***NEWFILE***:in/second.csvt
+Integer,Real,String,WKT

@@ -1,0 +1,12 @@
+FUZZER_FRIENDLY_ARCHIVE
+***NEWFILE***:cmd.txt
+raster
+info
+--input
+/vsitar//vsimem/test.tar/in
+***NEWFILE***:in
+x,y,z
+0,0,0
+1,0,0
+0,1,0
+1,1,1

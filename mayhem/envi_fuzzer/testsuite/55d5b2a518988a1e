@@ -1,0 +1,19 @@
+FUZZER_FRIENDLY_ARCHIVE
+***NEWFILE***:my.hdr
+ENVI
+description = {
+  Registration Result. Method: 1st degree Polynomial w/ nearest neighbor}
+samples = 434
+lines   = 3
+bands   = 1
+header offset = 0
+file type = ENVI Standard
+data type = 1
+interleave = bsq
+sensor type = Landsat TM
+byte order = 1
+map info = {Albers Equal Area Example, 1, 1, -936408.178, 2423902.344, 28.500000, 28.500000}
+projection info = {9, 6378206.4, 6356583.8, 23.000000, -96.000000, 0., 0., 29.500000, 45.500000, Albers Equal Area Example}
+band names = {
+ TM Band 1}
+k{„s„„Œ„„„k„k„„k{sœ”k„ksc{cJsRssk{{c{{sskZckkc{kŒ{{sc„{ss{„s{„Öœ¥”s”œ”Œ¥œÅœÅŒ­œ¥”œÎÖµÎ­ÞÎÿÖ­ÖÿÖ÷ÿæÎÅÖ­ÖÞµÿ÷½Åœ½­­Î­æ¥µ½ïÅÅÞ­µ½¥”„Œ÷¥½½sœÎ½ÞÅœ¥œc„Œ­­„”k÷Åsks{œ­s{ks­„Zs”ss„„­scs{œœ„½¥{s{µ­µÅ½cœÖÿÿÿÖ¥¥¥ÿÿµ”k”ŒŒµ”„­½µ­­¥””Œ½ïŒœÿkµ­¥c„cµ„Œ”J÷ÅÅÖ½µ½µÖÅ­ï­æŒ½ÖÞÿÎæÿÿÿÿÿÿÎ¥¥­Ö½œ¥ÖÞÿÿÿ­¥­½­Œ„œ÷÷ÿŒÎÿ”ÿ”s­µµ­­ÖæŒæ”œÎ½œœ÷¥ÞÎµc„RZBRR¥BJBRcµJR„Œ”„Œ{k”ZR{ZJBBJkkcBkcBkJ{œ{Rÿ:J”ZZs­cRRk­JBZ:RR)JB:J{BRBBcJZZRJkœ”ksZ{„Îœ„„ÿækŒµŒµæ{œÎc¥skœ””{cŒ{k„c{cs„k{”s¥sŒk{{c„{„„„cœ{Œsssck„kskcZssk{cs{ssŒ„Œs„sŒk{ssk{kŒcsk{Œµœ­µ­s­¥{””µ½Å”½­µœœœï½ÎµÞÿ­ÿ­ÞÿÎÿ½ÖÎÖÞ­÷ÅÿæÿÿÅÅÞÞ¥ÖïÅÞ½ÅÖÖ÷ïÎ¥Å½Ö¥ÞµÅ¥­œœœæÎÅœœccŒœs¥Œ”µæ”ks{„„¥{k„kæÎ­{ŒŒ„ŒsŒŒsŒŒ­œkµÞ{{ÞµÎ”­s„µÿ÷ÿ÷¥Ö¥ÖÖÞ¥Å½„ŒŒŒs{µ¥½½­”¥œ½ŒµÅÿ{”œ„{{k{œ„ss{ÞÅµµœ½œœÖïÖœ„ÅÎÎ”œœÿÿÿÿ÷ÿÿÿæ”­¥œ½½ÿÿÿ÷Î½ÞÅÎïœ­¥ÿ½ÿµÿ­­ï¥œœ¥æÖ­Þ½Þ­œ{cÎ”ÿÿœ÷Ö{µZBJJRJRB”Z1„ÅscBŒœ¥Œ„ksZ”ZRRJcJkZk:kRkBZJ{Z1ZZ:cR„ŒæZJŒ¥ZJR:JJRJBRBJJŒ:BcBcJcc:J1RÎsZk{œ¥ŒŒµÅckÿRJk½„Ås„sŒss­„k”ŒkksœZcs„Œ„{sŒkŒs„{k„„ssksk{k„Z„{ckcsZcsksZ{c{{kŒk„{{{ŒŒksŒ{{„{„{„„„{¥½ÎæÅ½œÎ­½µ­÷­Ö­½¥­¥­„Î””ÞïÿæÖÿÿïµÅµÿ¥ÞÞ¥÷ÖÅææÿÖÖ½Î½Å­Å”s„sµ¥­ŒŒÎ”½ÞŒ¥Œœ{{ŒÿÖÅ½{s„s”„cZ„””{„””Œ­„ssR„ÎÎŒ­„”Œ„¥c{c{µŒµ{Þ­”½­Öµ¥œ”æ½æ¥Þÿµÿµ¥ÞÖ­ÖŒ¥­{””¥¥œ¥¥Œœ”¥ÞÎ¥Þ¥kŒœkssk{„½{kïÎÅÅ­œŒŒÖ½ÅœœÅ”œœ­”{ÿÿÿÖÿæÿœµÎ­½µÿÿ÷÷½½æ¥ï­ÖÅ½”„{ÿ­ïŒŒ½Œ½kÖ½œ­Å¥Þœ÷{BB¥ï÷„ÿŒ{„B”RRZJRJJsZ½ÿÿ”RBBZssc„cŒkZRBRccRRcRJZcR:BR¥kZ{RJRRcBk”ckBcZ1JRZB:BB:JŒ!RBBZJc:BB:Bcs„kÖŒµ­œss{{„{kc„R{„s{„„Œ”½k”„cRŒsZŒ

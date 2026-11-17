@@ -1,0 +1,9 @@
+project: savantenvs/gdal
+target: gpx_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/gpx_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/gpx_fuzzer
+    libfuzzer: true
+    timeout: 30
